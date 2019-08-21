@@ -15,7 +15,6 @@ public class Chicken extends Bird {
     // method more specific to chicken in the Chicken class. If we did not have the method
     // below, the chicken WOULD be able to fly as it is a child of Bird.
 
-    @Override
     public void fly() {
         System.out.println("Not able to fly...");
 

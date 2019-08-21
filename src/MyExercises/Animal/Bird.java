@@ -7,7 +7,11 @@ public class Bird extends practiceCode.Animal {
     public Bird(int age, String gender, int weightInPounds) {
         super(age, gender, weightInPounds);
     }
-    public void fly() {
-        System.out.println("Flying...");
-    }
+
+    // To avoid @Override in the Chicken class (since the chicken is a Bird but cannot fly)
+    // we implement Interface which is a contract that any class that implements that
+    // interface, it becomes compulsory for that class to implement the methods that are
+    // defined in that interface
+
+
 }
