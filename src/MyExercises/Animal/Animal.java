@@ -2,7 +2,7 @@ package MyExercises.Animal;
 
 // class contains instructions on how objects can be created
 // as well as how the objects carry out certain behaviour
-public class Animal {
+public abstract class Animal {
 
     // all objects created using this class will have these attributes only
     int age;
@@ -35,4 +35,16 @@ public class Animal {
         System.out.println("Sleeping...");
     }
 
+    // It is requiring us to make this class an abstract class because it has an abstract
+    // method. So any class that is a child of this class is going to need the move method
+    // implemented. We are not implementing it in this class, we are just creating an
+    // abstraction for the idea of moving, and this class does not tell a particular
+    // animal how to move - a fish can swim, a bird can fly, a chicken can walk - so these
+    // are different types of movements based on how an animal moves. So this allows for
+    // abstracting the idea that one animal moves differently from another.
+    // An abstract class will have abstract methods in it and you cannot instantiate an
+    // instance of an abstract class. It is only meant to be a parent for another class so
+    // expects child classes to implement the abstract method. So Fish and Bird class, for eg, needs
+    // to implement this method move()
+    public abstract void move();
 }

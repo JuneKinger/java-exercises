@@ -1,21 +1,33 @@
 package MyExercises.Animal;
 
-import practiceCode.Animal;
-
 public class Zoo {
 
     public static void main(String[] args) {
 
-        // we do not have visibility to any fly methods for the chicken anymore since we
-        // implemented flyable in Sparrow Class
+        // to make sparrow move
+        Animal sparrow1 = new Sparrow(1, "M", 2);
+        // or Sparrow sparrow1 = new Sparrow(1, "M", 2);
+        // move() is defined in Bird class - "Flapping wings..."
+        sparrow1.move();
 
-        // Now Bird bird1 = ... does not work but Sparrow bird1 will!
-        // prints "Sparrow flying high..."
-        Sparrow bird1 = new Sparrow(1, "M", 2);
-        bird1.fly();
+        Animal fish1 = new Fish(2, "M", 1);
+        // move() is defined in Fish class - "Fish is moving..."
+        fish1.move();
 
-        // prints "Not able to fly ..."
-        Chicken chick1 = new Chicken(2, "F", 5);
-        chick1.fly();
+        // prints "Fish is moving..." - the object here is a fish
+        moveAnimal(fish1);
+
+        // prints "Flapping wings..."
+        moveAnimal(sparrow1);
+    }
+    // Say I want to move all animals to another place
+    // moveAnimals() works for any kind of animal
+    // polymorphism - the following 2 lines represents the general idea that the animal is able
+    // to move and the parameter that this method has is of type Animal. It is a
+    // parent type, so all of it's children can also be passed into this same method
+    // this method can be used to move all different kinds of animals.
+    public static void moveAnimal(Animal animal) {
+        animal.move();
+
     }
 }
