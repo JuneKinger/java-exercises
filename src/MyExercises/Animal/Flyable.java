@@ -2,7 +2,7 @@ package MyExercises.Animal;
 
 // interface name should be named after the functionality we are trying to abstract a way
 
-public interface flyable {
+public interface Flyable {
 
     // we don't give a body to this method - these methods are called Abstract methods
     // an interface only has abstract methods. In the bird class, we have removed the fly
