@@ -6,6 +6,8 @@ import java.util.Scanner;
 /**
  * Created by LaunchCode
  */
+
+/* An array is fixed-size data accessed with [] */
 public class GradebookArray {
 
     public static void main(String[] args) {

@@ -38,10 +38,32 @@ public class GradebookHashMap {
         System.out.println("\nClass roster:");
         double sum = 0.0;
 
+        /* Map.Entry is a class which represents key-value pairs within HashMaps.
+        The iterator variable student is of type Map.Entry.<String ,Double>
+        */
         for (Map.Entry<String, Double> student : students.entrySet()) {
+            /* Each Map.Entry object has a getKey method and a getValue method, which
+            represent (surprisingly enough!), the key and value of the map item.
+             */
             System.out.println(student.getKey() + " (" + student.getValue() + ")");
             sum += student.getValue();
         }
+
+        /* If you only need to access the key of each item in a map, you can construct a simpler loop:
+
+            for (String student : students.keySet())
+            {
+                System.out.println(student);
+            }
+         */
+
+        /* If you only need the values, using students.values():
+
+            for (double grade : students.values())
+            {
+                System.out.println(grade);
+            }
+        */
 
         double avg = sum / students.size();
         System.out.println("Average grade: " + avg);

@@ -10,6 +10,7 @@ public class Gradebook {
 
     public static void main(String[] args) {
 
+        // ArrayList is a class //
         ArrayList<String> students = new ArrayList<>();
         ArrayList<Double> grades = new ArrayList<>();
         Scanner in = new Scanner(System.in);
