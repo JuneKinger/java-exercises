@@ -1,4 +1,4 @@
-package practiceCode;
+package exercises.Humans;
 
 // class contains instructions on how objects can be created
 // as well as how the objects carry out certain behaviour

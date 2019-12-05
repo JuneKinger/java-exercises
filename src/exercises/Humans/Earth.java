@@ -1,4 +1,4 @@
-package practiceCode;
+package exercises.Humans;
 
 public class Earth {
 
