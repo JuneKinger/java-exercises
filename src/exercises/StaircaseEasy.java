@@ -26,9 +26,10 @@ public class StaircaseEasy {
                     System.out.print(" ");
                 }
                 else {
-                    System.out.println("#");
+                    System.out.print("#");
                 }
             }
+            System.out.println();
         }
     }
 
