@@ -11,6 +11,7 @@ import java.util.regex.*;
 public class camelCase {
 
     // Complete the camelcase function below.
+    // print number of words in String which has camelCase from 2nd word onwards eg. camelCaseIfFun will output 4.
     static int camelcase(String s) {
         int counter = 0;
         for (int i=0; i < s.length(); i++) {
