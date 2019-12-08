@@ -2,7 +2,7 @@ package exercises.String_Programs;
 
 import java.util.Scanner;
 
-public class StringCompareTo_SortAlphabetically {
+public class StringBubbleSortWithCompareTo {
     public static void main(String[] args) {
         int count;
         String temp;
