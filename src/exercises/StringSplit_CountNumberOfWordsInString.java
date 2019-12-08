@@ -1,6 +1,6 @@
 package exercises;
 
-public class CountNumberOfWordsInString {
+public class StringSplit_CountNumberOfWordsInString {
     public static void main(String[] args) {
         String str = "LaunchCode is a great school";
         int spacesInString = 0;

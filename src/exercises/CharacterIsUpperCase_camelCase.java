@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class camelCase {
+public class CharacterIsUpperCase_camelCase {
 
     // Complete the camelcase function below.
     // print number of words in String which has camelCase from 2nd word onwards eg. camelCaseIfFun will output 4.

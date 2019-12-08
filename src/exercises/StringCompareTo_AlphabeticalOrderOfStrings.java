@@ -2,7 +2,7 @@ package exercises;
 
 import java.util.Scanner;
 
-public class CharacterCompareTo_AlphabeticalOrderOfStrings {
+public class StringCompareTo_AlphabeticalOrderOfStrings {
     public static void main(String[] args) {
         int count;
         String temp;

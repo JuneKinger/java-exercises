@@ -9,7 +9,7 @@ import java.util.Scanner;
 //    The staircase is actually printed on a 2D array.
 //    If (row index + column index) > n, print “#”; otherwise, print ” “
 
-public class StaircaseEasy {
+public class TwoDArray_StaircaseEasy {
 
     static void staircase(int n) {
         for (int i = 1; i < n; i++) {
