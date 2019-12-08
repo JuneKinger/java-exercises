@@ -1,8 +1,8 @@
-package exercises;
+package exercises.String_Programs;
 
 import java.util.Scanner;
 
-public class StringCompareTo_AlphabeticalOrderOfStrings {
+public class StringCompareTo_SortAlphabetically {
     public static void main(String[] args) {
         int count;
         String temp;
@@ -31,9 +31,7 @@ public class StringCompareTo_AlphabeticalOrderOfStrings {
                     arr[j] = temp;
 
                 }
-
             }
-
         }
         // display sorted strings
         System.out.println("Strings in sorted order:");

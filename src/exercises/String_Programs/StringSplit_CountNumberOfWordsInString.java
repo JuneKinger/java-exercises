@@ -1,4 +1,4 @@
-package exercises;
+package exercises.String_Programs;
 
 public class StringSplit_CountNumberOfWordsInString {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package exercises;
+package exercises.String_Programs;
 
 public class Finding_Removing_Vowels_Without_CharArray {
 

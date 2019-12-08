@@ -1,6 +1,6 @@
-package exercises;
+package exercises.String_Programs;
 
-public class Finding_Vowels_Via_CharArray {
+public class ToCharArrayAndValueOf_Finding_Vowels_Via_CharArray {
     // method to convert a string to charArray for parsing
 
     public static void main(String[] args) {
@@ -18,7 +18,6 @@ public class Finding_Vowels_Via_CharArray {
 
          // call 2 different method to remove vowels
          FindVowels(word);
-
 
     }
 

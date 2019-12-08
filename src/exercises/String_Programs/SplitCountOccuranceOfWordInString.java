@@ -1,6 +1,6 @@
-package exercises;
+package exercises.String_Programs;
 
-public class CountOccuranceOfWordInString {
+public class SplitCountOccuranceOfWordInString {
     public static void main(String [] args) {
         String str = "this is an example. this is a program. this program checks if this occurs in this string";
         String[] strArr = str.split("this");
